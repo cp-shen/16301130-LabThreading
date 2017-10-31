@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyRunnableProject/MyRunnableProject.iml" filepath="$PROJECT_DIR$/MyRunnableProject/MyRunnableProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Use-Advanced-Thread-Control/Use-Advanced-Thread-Control.iml" filepath="$PROJECT_DIR$/Use-Advanced-Thread-Control/Use-Advanced-Thread-Control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Use-Basic-Threads/Use-Basic-Threads.iml" filepath="$PROJECT_DIR$/Use-Basic-Threads/Use-Basic-Threads.iml" />
+    </modules>
+  </component>
+</project>
