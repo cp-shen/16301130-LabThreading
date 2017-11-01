@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Producer implements Runnable{
     private int sizeOfJobs;
@@ -16,9 +14,14 @@ public class Producer implements Runnable{
     }
     @Override
     public void run() {
-        List<PrintJob> printJobs = new ArrayList<>();
         for(int i=0; i<numberOfJobs; i++){
-            printJobs.add(new PrintJob(producerName+i, sizeOfJobs));
+            try{
+                Printer.getPrinter().addJob(new PrintJob(producerName +" job"+i,sizeOfJobs));
+                Thread.sleep(delayBetweenJobs);
+            }catch(InterruptedException ex){
+                ex.printStackTrace();
+            }
         }
     }
+
 }
